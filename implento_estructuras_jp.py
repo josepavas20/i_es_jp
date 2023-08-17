@@ -11,4 +11,9 @@ class Student:
         self.age: int = age
         self.grades = grades
 
-    def
+    # Crear un método llamado add_grade que recibe un número como parámetro y lo agrega a la lista grades
+    def add_grade(self):
+        grado=int(input("ingrese el grado"))
+        self.grades.append=grado
+        
+
